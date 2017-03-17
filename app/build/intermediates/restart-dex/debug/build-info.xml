@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="74413482371711"
+    token="2888618521875868446"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="63865816802556"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="73422287113973"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="74413482371711"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>
