@@ -1,5 +1,6 @@
 package markdillman.discogsspecapp;
 
+import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -19,18 +20,17 @@ import android.graphics.Bitmap;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebChromeClient;
+import android.widget.EditText;
 
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.lang.StringBuilder;
-import java.util.Map;
+import java.util.HashMap;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
-import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.annotation.*;
 
 import com.github.scribejava.core.builder.ServiceBuilder;
 import com.github.scribejava.core.model.OAuth1AccessToken;
@@ -41,18 +41,16 @@ import com.github.scribejava.core.model.OAuthRequest;
 import com.github.scribejava.core.model.Response;
 import com.github.scribejava.core.model.Verb;
 import com.github.scribejava.core.oauth.OAuth10aService;
-import com.github.scribejava.core.model.OAuthConstants;
-import com.github.scribejava.core.exceptions.OAuthException;
-import com.github.scribejava.core.extractors.OAuth1AccessTokenExtractor;
-import com.github.scribejava.core.extractors.OAuth1RequestTokenExtractor;
-import com.github.scribejava.core.model.OAuthConfig;
+
 
 /**
  * Created by markdillman on 3/16/17.
  */
 
-public class OAuthActivity extends AppCompatActivity {
+public class OAuthActivity extends AppCompatActivity implements AsyncResponse{
 
+    private AsyncIdHandler idHandler;
+    private AsyncProfileHandler profHandler;
     private static final String CALLBACK_URL = "http://convectionmeadows.com";
     private String consumerKey    = "aYthzoqSYthdKLpfsDRI"; //api key
     private String consumerSecret = "LBAAQZeGbWJVbXcJksnRzmUIfaoWpsnu"; //api secret
@@ -67,12 +65,22 @@ public class OAuthActivity extends AppCompatActivity {
     private UsersDB mUsersDB;
     private SQLiteDatabase mSQLDB;
     static final String TAG = "OAuthActivity:";
+    private HashMap<String,String> personaMap;
+    private HashMap<String,Object> profileMap;
+    String responseBody;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oauth);
+
+        //async return stuff
+        idHandler = new AsyncIdHandler(this);
+        profHandler = new AsyncProfileHandler(this);
+        idHandler.delegate = this;
+        profHandler.delegate = this;
+
 
         //Database Stuff
         mUsersDB = new UsersDB(this);
@@ -95,6 +103,8 @@ public class OAuthActivity extends AppCompatActivity {
 
         mWebView = (WebView)findViewById(R.id.webView);
         mWebView.clearCache(true);
+        mWebView.clearHistory();
+        mWebView.clearFormData();
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls(true);
         mWebView.getSettings().setDisplayZoomControls(false);
@@ -144,6 +154,9 @@ public class OAuthActivity extends AppCompatActivity {
                         Log.d(TAG,"-----OAUTH SECRET-----");
                         Log.d(TAG,accessToken.getParameter("oauth_token_secret"));
                         getProfile(accessToken);
+                        //idHandler.execute((OAuth1AccessToken)accessToken,mService);
+                        //Log.d(TAG,"!!!!!!!!RESULT!!!!!!!!!!");
+                        //Log.d(TAG,responseBody);
                     }
                 }).execute();
             } else {
@@ -166,16 +179,72 @@ public class OAuthActivity extends AppCompatActivity {
 
             @Override
             protected void onPostExecute(Response response){
-                //HERE BEGIN ENTERING I
-                Log.d(TAG,"PROFILE REQUEST RESPONSE");
-                Log.d(TAG,response.toString());
+                String body = null;
                 try {
-                    System.out.println(response.getBody());
+                    body = response.getBody();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                //CHECK THAT UNIQUE USERNAME IS NOT ALREADY IN THE DATABASE ------ TO DO!!!!!
+                pullInfo(body,(OAuth1AccessToken)accessToken);
+                //LOAD USER IN THE DATABASE
             }
         } ).execute();
+    }
+
+    private void pullInfo(final String body, final OAuth1AccessToken accessToken){
+        (new AsyncTask<Void,Void,Response>(){
+            @Override
+            protected Response doInBackground(Void...params){
+                //construct url
+                //DEBUG STUFF
+                Log.d(TAG,"PROFILE REQUEST RESPONSE");
+                Log.d(TAG,body);
+                System.out.println(body);
+                ObjectMapper mapper = new ObjectMapper();
+                TypeReference<HashMap<String,String>> typeRef =
+                        new TypeReference<HashMap<String,String>>(){};
+                try {
+                    personaMap = mapper.readValue(body,typeRef);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Log.d(TAG,personaMap.get("resource_url"));
+                final OAuthRequest profileRequest = new OAuthRequest(Verb.GET,personaMap.get("resource_url"),mService);
+                profileRequest.addOAuthParameter("oauth_token_secret",accessToken.getParameter("oauth_token_secret"));
+                profileRequest.addHeader("User-Agent","Discogeronomy/1.0");
+                mService.signRequest((OAuth1AccessToken)accessToken, profileRequest);
+                final Response response = profileRequest.send();
+                return response;
+            }
+            @Override
+            protected void onPostExecute(Response response){
+                try {
+                    String responseBody = response.getBody();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                ObjectMapper mapper = new ObjectMapper();
+                TypeReference<HashMap<String,Object>> typeRef =
+                        new TypeReference<HashMap<String,Object>>(){};
+                try {
+                    profileMap = mapper.readValue(body,typeRef);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Log.d(TAG,responseBody);
+                //Log.d(TAG,(String)profileMap.get("name"));
+                /*if (mSQLDB != null){
+                    ContentValues vals = new ContentValues();
+                    vals.put(DBContract.UserTable.COLUMN_NAME_USER_NAME, personaMap.get("username"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_ID,personaMap.get("id"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN,mAccessToken.getToken());
+                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET,mAccessToken.getTokenSecret());
+                    vals.put(DBContract.UserTable.COLUMN_NAME_URL,personaMap.get("resource_url"));
+                    //mSQLDB.insert(DBContract.UserTable.TABLE_NAME,null,vals);
+                }*/
+            }
+        }).execute();
     }
 
     private void asynchAuthorize(){
@@ -208,5 +277,17 @@ public class OAuthActivity extends AppCompatActivity {
                 Log.d(TAG,"Post: loadUrl()\n");
             }
         } ).execute();
+    }
+
+    @Override
+    public void processFinish(String output){
+        responseBody = output;
+    }
+
+    private String urlFix(String url){
+        StringBuilder fixer = new StringBuilder();
+        fixer.append(url);
+        fixer.append("?");
+        return fixer.toString();
     }
 }

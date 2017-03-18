@@ -2,45 +2,243 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.8.0_8626e00a5cf7f0910bc6d616a0cb8a11058c892a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.8.0_ef6eaa74d2dbf6b9ea17c5f2aa9323bb60191201/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.8.0_99701bc201ca0f01cc97463ff5fee18068492cb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.8.0_ef6eaa74d2dbf6b9ea17c5f2aa9323bb60191201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.1/c04eb2cc599cd1742889bfa7cc41878db0d152f5/jackson-databind-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c04eb2cc599cd1742889bfa7cc41878db0d152f5">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.8.1_3faea84fc07f6dbcb5a9faef05c3e2a708cc650f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.1/c04eb2cc599cd1742889bfa7cc41878db0d152f5/jackson-databind-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c04eb2cc599cd1742889bfa7cc41878db0d152f5">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.8.1_3faea84fc07f6dbcb5a9faef05c3e2a708cc650f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.8.0_6fe3f0e36aa11b0e3ac8d045c2907835085c6377/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.8.0_6fe3f0e36aa11b0e3ac8d045c2907835085c6377.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.8.0_d50b07ebec3b3befc54d609cf175c8adb4919049/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.8.0_92cb4d6c64d1bcf3bf35ab36af5be2c4deab152c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.8.0_4bba22df21f33997713f27f9ef906eb8a41a2633/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.8.0_d50b07ebec3b3befc54d609cf175c8adb4919049.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.8.0_9701e8ac61699ddd58c1712d8739f7107b6d4463/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_f3f4e25a5e8ca34eeb01bc4595b28226649ec535/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.8.0_92cb4d6c64d1bcf3bf35ab36af5be2c4deab152c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.8.0_9701e8ac61699ddd58c1712d8739f7107b6d4463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_f3f4e25a5e8ca34eeb01bc4595b28226649ec535.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_d32ea2e08e30507aa4aea5b716f520b79fe13e5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_f8ec0017c35dc8b85713c1a41f2aada70db93b68.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_f8ec0017c35dc8b85713c1a41f2aada70db93b68/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.8.0_99701bc201ca0f01cc97463ff5fee18068492cb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.8.0_aecc294b6d2e9a382bf6b5a87deb508cfd24b11d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_d32ea2e08e30507aa4aea5b716f520b79fe13e5f.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.8.0_41f43e9190fe99e75fd9c0dd73c4b92314c5bb3e/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_48e4a6cb9c0cbf62865ebc6ec6b512c80c39834d/classes.dex" />
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.8.0_4bba22df21f33997713f27f9ef906eb8a41a2633.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e56f31b23ddb067f95f01255295167db7c798612">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.8.0_75fa083d00e42519a07ef7f6ee39772e6a0c15ed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.8.0_7ccc1b95370a85fa70b92f9d5f9333f4821940b2/classes.dex" />
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-instantapps-9.8.0_41f43e9190fe99e75fd9c0dd73c4b92314c5bb3e.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9ff04cc3470178a44512624036751a803418c2ca">
@@ -48,17 +246,17 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.8.0_51d58dc98d266b85e8402c85240cbd0912cd8df1/classes.dex" />
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.8.0_18bc9e3c88a0edc4fe183407db8e1b0054b9b17b/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
@@ -67,43 +265,178 @@
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.8.0_e84aa1a16ef1f5e7001acbcac83d200fa9d1c2a1/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_e6d263c3726da2ccd48423bca901f8fd9bbc7f3b/classes.dex" />
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-awareness-9.8.0_b00e961d06257ff4254bc1c9d46abd1a93d2a727.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.8.0_b3873d328df838805186dea1c3c1e9ca54c8d389.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/3.3.0/c460fdda054a44139f0f6e1d927ef092dde36c17/scribejava-apis-3.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8d102045d8d309684bb94825d884b6d89081855a">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2a54b77f528766a90184e301d1a06ab07f523d6/classes.dex" />
+        sha1="c460fdda054a44139f0f6e1d927ef092dde36c17">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-apis-3.3.0_a2189abab908f8ca557803f0eb76588c08b61a10/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.8.0_48e4a6cb9c0cbf62865ebc6ec6b512c80c39834d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.8.0_18bc9e3c88a0edc4fe183407db8e1b0054b9b17b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_8cd77109a1eb175c972ce822525c9f197a3448af.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_5ae606f55214ee22e0308f9dec93b5abfb43acef/classes.dex" />
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.8.0_b3873d328df838805186dea1c3c1e9ca54c8d389/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.8.0_75fa083d00e42519a07ef7f6ee39772e6a0c15ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_5f10717025820740460d4c8d71922d162ea210c9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_34a7c29d7c16fedb8bcc733f8552839d8fdb2afb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.8.0_75fa083d00e42519a07ef7f6ee39772e6a0c15ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.8.0_19d44de2e1fe809a4f7c0d4b0f259623c6b0c991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_34a7c29d7c16fedb8bcc733f8552839d8fdb2afb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.8.0_e84aa1a16ef1f5e7001acbcac83d200fa9d1c2a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.8.0_19d44de2e1fe809a4f7c0d4b0f259623c6b0c991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_48e4a6cb9c0cbf62865ebc6ec6b512c80c39834d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_a3959de60fb6a056b58682ddeba921aa0247adee/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.8.0_a3959de60fb6a056b58682ddeba921aa0247adee.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
@@ -111,35 +444,98 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.1/fd13b1c033741d48291315c6370f7d475a42dccf/jackson-core-2.8.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="190a642ba16d1421296a4d794606279b80039c59">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_a9ffcd0eedf3901824be8004defb45f1d5e7058e/classes.dex" />
+        sha1="fd13b1c033741d48291315c6370f7d475a42dccf">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.8.1_7e9583b595c303972725fe6ba06777beba5fb424/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.8.0_64febf0c7dd56af9936b3ccda1b8c53dcf2fcddd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.8.0_7ccc1b95370a85fa70b92f9d5f9333f4821940b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_637afff560992bcf2709a1884817177aad217f45.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_cf0c2f6fcce4f66a159a6ac6b18d63828640fa50/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.8.0_fba5f4f37e0892c8379beffb86b41785a33d53e7/classes.dex" />
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.8.0_7ccc1b95370a85fa70b92f9d5f9333f4821940b2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_637afff560992bcf2709a1884817177aad217f45/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.1/fd13b1c033741d48291315c6370f7d475a42dccf/jackson-core-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fd13b1c033741d48291315c6370f7d475a42dccf">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/jackson-core-2.8.1_7e9583b595c303972725fe6ba06777beba5fb424.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/3.3.0/c460fdda054a44139f0f6e1d927ef092dde36c17/scribejava-apis-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c460fdda054a44139f0f6e1d927ef092dde36c17">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/scribejava-apis-3.3.0_a2189abab908f8ca557803f0eb76588c08b61a10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_cf0c2f6fcce4f66a159a6ac6b18d63828640fa50.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
@@ -147,17 +543,26 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_dfa1f895740f2a4f4e7b459b76a8af4aaf3030a1/classes.dex" />
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.8.0_b00e961d06257ff4254bc1c9d46abd1a93d2a727/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.8.0_435950ae51e760c22eaec926b5e5c0ccd5837adb.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
@@ -166,7 +571,7 @@
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
@@ -174,98 +579,17 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.8.0_9701e8ac61699ddd58c1712d8739f7107b6d4463/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_d71c1beac09b704986ac070e57f3abb9c4928cf6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/3.3.0/7a3394ee3f48e9cebdc89ffda6065171e5e52421/scribejava-core-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a3394ee3f48e9cebdc89ffda6065171e5e52421">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-core-3.3.0_088a12e6e0d25337aad9e72ba1bc0e5ad2ee8c2a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_c7e7b4637e4f478880f2b09f4162a015f8da35f7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_c4b5737bdbfb188fc874556b122cdf0c6218e7e4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.8.0_d50b07ebec3b3befc54d609cf175c8adb4919049/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_f8ec0017c35dc8b85713c1a41f2aada70db93b68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.8.0_b4d68f16e6e0e418b842e2a6c10f8d0fba195139/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.8.0_30ac79fa88c036545854366656693e4398887606/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_e26bbb9ba3a9c54f66120daeb0f4a2e1d3026603/classes.dex" />
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_ddf614e719d44e300e67903affe5f2c1a7283a16/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
@@ -273,35 +597,143 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.8.0_4d350ecf2967b97f75dd90f454373036e26005d0/classes.dex" />
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_d71c1beac09b704986ac070e57f3abb9c4928cf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_0c3d37bc479e51961f0db1a176063e7bbfe9919b/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.8.0_fc6cb16e10ab925b125057f302bcdf0d5636aa16/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_f3f4e25a5e8ca34eeb01bc4595b28226649ec535/classes.dex" />
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_6b95f1d0cca0ad2d715308f0a043425162b8f278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.8.0_9c605c4ff01bb340bb2471c3caf1f53f55ddb465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.8.0_d9f454bbfd89ac9210c6c96421a3466cfabef656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.8.0_d71c1beac09b704986ac070e57f3abb9c4928cf6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.8.0_d9f454bbfd89ac9210c6c96421a3466cfabef656/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_0c3d37bc479e51961f0db1a176063e7bbfe9919b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.8.0_c7e7b4637e4f478880f2b09f4162a015f8da35f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.8.0_0c68a6ba189cd9d8de0bec9d3676a2ae5fa53427.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_c7e7b4637e4f478880f2b09f4162a015f8da35f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/3.3.0/7a3394ee3f48e9cebdc89ffda6065171e5e52421/scribejava-core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a3394ee3f48e9cebdc89ffda6065171e5e52421">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-core-3.3.0_088a12e6e0d25337aad9e72ba1bc0e5ad2ee8c2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_e26bbb9ba3a9c54f66120daeb0f4a2e1d3026603.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_c4b5737bdbfb188fc874556b122cdf0c6218e7e4.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
@@ -309,35 +741,305 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_2ebbbd57aa666f5c6d25526c3c5238356e1fabf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.8.0_30ac79fa88c036545854366656693e4398887606/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_470d8284fbde7a0c8f3510196d3fa3300fe4e9e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/3.3.0/7a3394ee3f48e9cebdc89ffda6065171e5e52421/scribejava-core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a3394ee3f48e9cebdc89ffda6065171e5e52421">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/scribejava-core-3.3.0_088a12e6e0d25337aad9e72ba1bc0e5ad2ee8c2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_639da366a629f8cb6c83eb19c6a4457de34afd92.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.8.0_4d350ecf2967b97f75dd90f454373036e26005d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_2ebbbd57aa666f5c6d25526c3c5238356e1fabf5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_e26bbb9ba3a9c54f66120daeb0f4a2e1d3026603/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_4adaeffa397db13139256a10609b59c487e94618/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_470d8284fbde7a0c8f3510196d3fa3300fe4e9e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.8.0_30ac79fa88c036545854366656693e4398887606.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.8.0_b4d68f16e6e0e418b842e2a6c10f8d0fba195139.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_5abaf0ffdffbe9f8ef9814f2d7de40504d34d147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.0.0_ddf614e719d44e300e67903affe5f2c1a7283a16.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.8.0_b4d68f16e6e0e418b842e2a6c10f8d0fba195139/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.8.0_4adaeffa397db13139256a10609b59c487e94618.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.8.0_4d350ecf2967b97f75dd90f454373036e26005d0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_dfa1f895740f2a4f4e7b459b76a8af4aaf3030a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.8.0_fc6cb16e10ab925b125057f302bcdf0d5636aa16.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_3e11b14a9f21e3b48613b8fc89785e9ec9bcb96a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_5abaf0ffdffbe9f8ef9814f2d7de40504d34d147/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.8.0_dfa1f895740f2a4f4e7b459b76a8af4aaf3030a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_c4b5737bdbfb188fc874556b122cdf0c6218e7e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_3e11b14a9f21e3b48613b8fc89785e9ec9bcb96a/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.8.0_b3873d328df838805186dea1c3c1e9ca54c8d389/classes.dex" />
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_4985ffdab0b673eda5ee1d46ba7719be3a63973e.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.8.0_b00e961d06257ff4254bc1c9d46abd1a93d2a727/classes.dex" />
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_193b8b3db4bc9861288cbbd349f175f5fa734063/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.8.0_51d58dc98d266b85e8402c85240cbd0912cd8df1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.8.0_51d58dc98d266b85e8402c85240cbd0912cd8df1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_3c9499887cce7c7f550c8830e698819889fe7fcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.8.0_cca89bfb2cb7a8178817c5514f9e8391808d4b23.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_4985ffdab0b673eda5ee1d46ba7719be3a63973e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_193b8b3db4bc9861288cbbd349f175f5fa734063.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.8.0_aecc294b6d2e9a382bf6b5a87deb508cfd24b11d/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
@@ -346,61 +1048,70 @@
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.8.0_cca89bfb2cb7a8178817c5514f9e8391808d4b23/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_193b8b3db4bc9861288cbbd349f175f5fa734063/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_4985ffdab0b673eda5ee1d46ba7719be3a63973e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_3c9499887cce7c7f550c8830e698819889fe7fcb/classes.dex" />
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-24.0.0_3c9499887cce7c7f550c8830e698819889fe7fcb.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="260d80bc3810d60a195d7152d0cc78ac8eb8f50d">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56f6de365905a7c12b7403bfc215afecf66ddb52/classes.dex" />
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_e6d263c3726da2ccd48423bca901f8fd9bbc7f3b/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.8.0_19d44de2e1fe809a4f7c0d4b0f259623c6b0c991/classes.dex" />
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.8.0_9b8c9f23bffa8536a4e0b52fc61359a3eb7d18c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_e6d263c3726da2ccd48423bca901f8fd9bbc7f3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_5ae606f55214ee22e0308f9dec93b5abfb43acef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_a946604454254a84378bb5668aa0a9f7ba62e96a.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
@@ -408,35 +1119,26 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_34a7c29d7c16fedb8bcc733f8552839d8fdb2afb/classes.dex" />
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_5ae606f55214ee22e0308f9dec93b5abfb43acef/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_0c3d37bc479e51961f0db1a176063e7bbfe9919b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/3.3.0/c460fdda054a44139f0f6e1d927ef092dde36c17/scribejava-apis-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c460fdda054a44139f0f6e1d927ef092dde36c17">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-apis-3.3.0_a2189abab908f8ca557803f0eb76588c08b61a10/classes.dex" />
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_a9ffcd0eedf3901824be8004defb45f1d5e7058e/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
@@ -444,17 +1146,8 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_637afff560992bcf2709a1884817177aad217f45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
@@ -462,138 +1155,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.1/4465fda9834ab27eac2a76f9a378738d15a9b4fa/jackson-annotations-2.8.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.8.0_ef6eaa74d2dbf6b9ea17c5f2aa9323bb60191201/classes.dex" />
+        sha1="4465fda9834ab27eac2a76f9a378738d15a9b4fa">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.8.1_083abb3eb5ac8796c6614906f2993d8c6cc4b4f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_a9ffcd0eedf3901824be8004defb45f1d5e7058e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.8.0_8577cdcf803fd5ca524b37eabbc1057040406423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.8.0_fba5f4f37e0892c8379beffb86b41785a33d53e7.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.8.0_d9f454bbfd89ac9210c6c96421a3466cfabef656/classes.dex" />
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.8.0_fba5f4f37e0892c8379beffb86b41785a33d53e7/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.1/4465fda9834ab27eac2a76f9a378738d15a9b4fa/jackson-annotations-2.8.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_a3959de60fb6a056b58682ddeba921aa0247adee/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.8.0_6fe3f0e36aa11b0e3ac8d045c2907835085c6377/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.8.0_92cb4d6c64d1bcf3bf35ab36af5be2c4deab152c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_470d8284fbde7a0c8f3510196d3fa3300fe4e9e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.8.0_99701bc201ca0f01cc97463ff5fee18068492cb7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_2ebbbd57aa666f5c6d25526c3c5238356e1fabf5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.8.0_aecc294b6d2e9a382bf6b5a87deb508cfd24b11d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_4adaeffa397db13139256a10609b59c487e94618/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_d32ea2e08e30507aa4aea5b716f520b79fe13e5f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_ddf614e719d44e300e67903affe5f2c1a7283a16/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.8.0_18bc9e3c88a0edc4fe183407db8e1b0054b9b17b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_5abaf0ffdffbe9f8ef9814f2d7de40504d34d147/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.8.0_4bba22df21f33997713f27f9ef906eb8a41a2633/classes.dex" />
+        sha1="4465fda9834ab27eac2a76f9a378738d15a9b4fa">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.8.1_083abb3eb5ac8796c6614906f2993d8c6cc4b4f5.jar" />
     </item>
 
 </items>

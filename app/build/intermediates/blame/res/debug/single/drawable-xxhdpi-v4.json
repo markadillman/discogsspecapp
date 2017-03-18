@@ -368,12 +368,12 @@
         "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_02_dark.png"
     },
     {
-        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png"
-    },
-    {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_07_dark.png",
         "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_07_dark.png"
+    },
+    {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_10_dark.png",

@@ -16,6 +16,8 @@ public class DBContract {
         public static final String TABLE_NAME = "users";
         public static final String COLUMN_NAME_USER_NAME = "user_name";
         public static final String COLUMN_NAME_PROPER_NAME = "user_proper_name";
+        public static final String COLUMN_NAME_ID = "user_id";
+        public static final String COLUMN_NAME_URL = "user_url";
         public static final String COLUMN_NAME_TOKEN = "user_token";
         public static final String COLUMN_NAME_TOKEN_SECRET = "user_token_secret";
         public static final String COLUMN_NAME_LOGGED_IN = "logged_in";
@@ -25,6 +27,8 @@ public class DBContract {
                 DBContract.UserTable.TABLE_NAME + "(" + DBContract.UserTable._ID + " INTEGER PRIMARY KEY NOT NULL," +
                 DBContract.UserTable.COLUMN_NAME_USER_NAME + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_PROPER_NAME + " VARCHAR(255)," +
+                DBContract.UserTable.COLUMN_NAME_ID + " INT," +
+                DBContract.UserTable.COLUMN_NAME_URL + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_TOKEN + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_LOGGED_IN + " INT);";
