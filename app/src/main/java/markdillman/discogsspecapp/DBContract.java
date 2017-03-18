@@ -17,6 +17,7 @@ public class DBContract {
         public static final String COLUMN_NAME_USER_NAME = "user_name";
         public static final String COLUMN_NAME_PROPER_NAME = "user_proper_name";
         public static final String COLUMN_NAME_TOKEN = "user_token";
+        public static final String COLUMN_NAME_TOKEN_SECRET = "user_token_secret";
         public static final String COLUMN_NAME_LOGGED_IN = "logged_in";
         public static final int DB_VERSION = 4;
 
@@ -25,6 +26,7 @@ public class DBContract {
                 DBContract.UserTable.COLUMN_NAME_USER_NAME + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_PROPER_NAME + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_TOKEN + " VARCHAR(255)," +
+                DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET + " VARCHAR(255)," +
                 DBContract.UserTable.COLUMN_NAME_LOGGED_IN + " INT);";
 
         public static final String SQL_DROP_DEMO_TABLE = "DROP TABLE IF EXISTS " + DBContract.UserTable.TABLE_NAME;

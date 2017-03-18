@@ -204,12 +204,12 @@
         "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_previous_white_36.png",
         "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-hdpi-v4/quantum_ic_skip_previous_white_36.png"
+    },
+    {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_speaker_light.png",

@@ -30,7 +30,7 @@ dependencies {
     })
     compile 'com.google.android.gms:play-services:9+'
     compile 'com.android.support:appcompat-v7:25.1.1'
-    compile group: 'com.github.scribejava', name: 'scribejava-core', version: '4.0.0'
-    compile group: 'com.github.scribejava', name: 'scribejava-apis', version: '4.0.0'
+    compile group: 'com.github.scribejava', name: 'scribejava-core', version: '3.3.0'
+    compile group: 'com.github.scribejava', name: 'scribejava-apis', version: '3.3.0'
     testCompile 'junit:junit:4.12'
 }

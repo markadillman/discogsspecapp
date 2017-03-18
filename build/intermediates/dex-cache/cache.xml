@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1c6b5859a20e5492595c5b4ffa0cc7027ec0e432">
+        sha1="8d102045d8d309684bb94825d884b6d89081855a">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2a54b77f528766a90184e301d1a06ab07f523d6/classes.dex" />
     </item>
     <item
@@ -165,15 +165,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/4.0.0/aa7e65edd55d6188b8920ce01523417d6216c033/scribejava-apis-4.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa7e65edd55d6188b8920ce01523417d6216c033">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-apis-4.0.0_45da6cf163f817a224f7e34912b56457e38c5c05/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -198,6 +189,15 @@
         revision="25.0.2"
         sha1="5f47ede9561595584dca71104baa0fecb36dda87">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_d71c1beac09b704986ac070e57f3abb9c4928cf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/3.3.0/7a3394ee3f48e9cebdc89ffda6065171e5e52421/scribejava-core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a3394ee3f48e9cebdc89ffda6065171e5e52421">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-core-3.3.0_088a12e6e0d25337aad9e72ba1bc0e5ad2ee8c2a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -318,15 +318,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/4.0.0/f4b14341c6fb36958ea5480986d58e313e9d6d74/scribejava-core-4.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f4b14341c6fb36958ea5480986d58e313e9d6d74">
-        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-core-4.0.0_6ee52f69f2d3d345f786dc9e7972e58ac6ab3ac3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -394,7 +385,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="717527ca67b55d93aca1552b330184427dfc25f4">
+        sha1="260d80bc3810d60a195d7152d0cc78ac8eb8f50d">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56f6de365905a7c12b7403bfc215afecf66ddb52/classes.dex" />
     </item>
     <item
@@ -432,6 +423,15 @@
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
         <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_0c3d37bc479e51961f0db1a176063e7bbfe9919b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markdillman/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/3.3.0/c460fdda054a44139f0f6e1d927ef092dde36c17/scribejava-apis-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c460fdda054a44139f0f6e1d927ef092dde36c17">
+        <dex dex="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/scribejava-apis-3.3.0_a2189abab908f8ca557803f0eb76588c08b61a10/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1,5 +1,6 @@
 package markdillman.discogsspecapp;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import android.webkit.WebChromeClient;
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.lang.StringBuilder;
+import java.util.Map;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -58,9 +60,12 @@ public class OAuthActivity extends AppCompatActivity {
     private String requestUrl = "https://www.discogs.com/oauth/authorize";
     private OAuth10aService mService;
     private OAuth1RequestToken mToken;
+    private OAuth1AccessToken mAccessToken;
     private String authUrl;
     private WebView mWebView;
     private WebChromeClient mWebChromeClient;
+    private UsersDB mUsersDB;
+    private SQLiteDatabase mSQLDB;
     static final String TAG = "OAuthActivity:";
 
     @Override
@@ -69,17 +74,21 @@ public class OAuthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oauth);
 
+        //Database Stuff
+        mUsersDB = new UsersDB(this);
+        mSQLDB = mUsersDB.getWritableDatabase();
+
         //set user-agent
         System.setProperty("http.agent", userAgent);
 
         //OAuth Stuff
         Log.d(TAG,"Prebuild:\n");
         mService = new ServiceBuilder()
-                .signatureType(SignatureType.QueryString)
                 .apiKey(consumerKey)
                 .apiSecret(consumerSecret)
                 .userAgent(userAgent)
                 .callback(CALLBACK_URL)
+                .signatureType(com.github.scribejava.core.model.SignatureType.QueryString)
                 .debug()
                 .build(DiscogsApi.instance());
         Log.d(TAG,"Postbuild:\n");
@@ -90,13 +99,12 @@ public class OAuthActivity extends AppCompatActivity {
         mWebView.getSettings().setBuiltInZoomControls(true);
         mWebView.getSettings().setDisplayZoomControls(false);
         mWebView.setWebViewClient(mWebViewClient);
-        //mWebView.setWebChromeClient(mWebChromeClient);
+        mWebView.setWebChromeClient(mWebChromeClient);
         ((ViewGroup)mWebView.getParent()).removeView(mWebView);
         setContentView(mWebView);
         Log.d(TAG,"Postload\n");
         asynchAuthorize();
-        //rebuild after WebView closes
-        
+
     }
 
     private WebViewClient mWebViewClient = new WebViewClient(){
@@ -114,23 +122,28 @@ public class OAuthActivity extends AppCompatActivity {
                 (new AsyncTask<Void, Void, Token>() {
                     @Override
                     protected Token doInBackground(Void... params) {
-                        try {
                             Log.d(TAG,"__________GET ACCESS VERIFIER_________");
+                        try {
                             return mService.getAccessToken(mToken, verifier);
                         } catch (IOException e) {
                             e.printStackTrace();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        } catch (ExecutionException e) {
+                        }
+                        try {
+                            mAccessToken = mService.getAccessToken(mToken, verifier);
+                        } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        return mToken;
+                        return mAccessToken;
                     }
 
                     @Override
                     protected void onPostExecute(Token accessToken) {
-                        // AccessToken is passed here! Do what you want!
-                        finish();
+                        //enter token information into SQLite database
+                        Log.d(TAG,"-----OAUTH TOKEN-----");
+                        Log.d(TAG,accessToken.getParameter("oauth_token"));
+                        Log.d(TAG,"-----OAUTH SECRET-----");
+                        Log.d(TAG,accessToken.getParameter("oauth_token_secret"));
+                        getProfile(accessToken);
                     }
                 }).execute();
             } else {
@@ -139,22 +152,45 @@ public class OAuthActivity extends AppCompatActivity {
         }
     };
 
+    private void getProfile(final Token accessToken){
+        (new AsyncTask<Void,Void,Response>(){
+            @Override
+            protected Response doInBackground(Void... params) {
+                final OAuthRequest personaRequest = new OAuthRequest(Verb.GET,"https://api.discogs.com/oauth/identity?",mService);
+                personaRequest.addOAuthParameter("oauth_token_secret",accessToken.getParameter("oauth_token_secret"));
+                personaRequest.addHeader("User-Agent","Discogeronomy/1.0");
+                mService.signRequest((OAuth1AccessToken)accessToken, personaRequest);
+                final Response response = personaRequest.send();
+                return response;
+            }
+
+            @Override
+            protected void onPostExecute(Response response){
+                //HERE BEGIN ENTERING I
+                Log.d(TAG,"PROFILE REQUEST RESPONSE");
+                Log.d(TAG,response.toString());
+                try {
+                    System.out.println(response.getBody());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        } ).execute();
+    }
+
     private void asynchAuthorize(){
         (new AsyncTask<Void,Void,String>(){
             @Override
             protected String doInBackground(Void... params) {
+                Log.d(TAG,"Pre: getRequestToken()\n");
                 try {
-                    Log.d(TAG,"Pre: getRequestToken()\n");
                     mToken = mService.getRequestToken();
-                    Log.d(TAG,mToken.getToken());
-                    Log.d(TAG,"Post: getRequestToken()\n");
                 } catch (IOException e) {
                     e.printStackTrace();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
-                    e.printStackTrace();
                 }
+                Log.d(TAG,mToken.getToken());
+                Log.d(TAG,"Post: getRequestToken()\n");
+
                 return authUrl = mService.getAuthorizationUrl(mToken);
             }
 
