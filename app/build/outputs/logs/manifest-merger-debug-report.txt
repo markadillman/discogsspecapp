@@ -19,73 +19,73 @@ ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifes
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:4:22-62
 uses-permission#android.permission.INTERNET
 ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/.android/build-cache/9532c5d8cd23a80b608f2cd4a322ef63b806bd8a/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/.android/build-cache/202cfb71a4354b7dbc2180eb12f6e66adb16229b/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/.android/build-cache/695bed9fe60933dded1ec45987c4047c0ca635e4/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/ed4e99f0c22cd1fac44c897df3f72dba3d5abe04/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:6:5-20:19
-MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:23:5-27:19
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/.android/build-cache/678c8ea1f34ab5e863b670fa7e3e6dfcc0c8d8ee/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/markdillman/.android/build-cache/2ffb5ec4fa7613d3aafcc81ea4a9a7e83d5b15b6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/markdillman/.android/build-cache/fb1485ddccbadf9e07975deaeed5084eda3e4c00/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/markdillman/.android/build-cache/25c4d81d24451e65430cd519caad1f5d8919b4e4/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/markdillman/.android/build-cache/072c3ba8da9589237c30f540a6e0dc5770940840/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/markdillman/.android/build-cache/aaa2f87924009fae9655b59d5ff494bfbdc9ecf8/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/markdillman/.android/build-cache/a2e4c49291d2435b17b85ed4f50712ad63fc6637/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/.android/build-cache/9532c5d8cd23a80b608f2cd4a322ef63b806bd8a/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/markdillman/.android/build-cache/ec5263300fdd1c63960d6193a477a4fc58f838ae/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/markdillman/.android/build-cache/1b9ed683b84d6ca5a56c1635e4a5a5a8553acf0b/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/markdillman/.android/build-cache/bd011d7e3869e83d316585aede4019311a7633c5/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/markdillman/.android/build-cache/1d5ace45d06e82221f00c2c07109fc214f8402c3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/markdillman/.android/build-cache/d18732c3d1a88a7f3af6203d076d11e195dc75a6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/markdillman/.android/build-cache/1d4f82a286fd7ec442e5acfdb8694e988aa2380c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/.android/build-cache/202cfb71a4354b7dbc2180eb12f6e66adb16229b/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/markdillman/.android/build-cache/db1cd09f668ca74a6c1dd711f2410291e6cdacde/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/.android/build-cache/695bed9fe60933dded1ec45987c4047c0ca635e4/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/markdillman/.android/build-cache/e65d318d4be67aa2b3417605a239ec146f19053c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/.android/build-cache/0f0b39d8676ec48b260cd64ecbd0bc09ae736658/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/markdillman/.android/build-cache/2f93535e245133ae55869bc993d576253bdfbb57/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/markdillman/.android/build-cache/21cd03d044adfd70d9369ceaeb7620417dbff46b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/markdillman/.android/build-cache/7e26a28e9d30af8052b79e07cc6d5b112ce47892/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/ed4e99f0c22cd1fac44c897df3f72dba3d5abe04/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/markdillman/.android/build-cache/b5feec9d93b7d86e1b1bf674ae9823aaa4bb98c0/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/markdillman/.android/build-cache/167ca255b7756d536a655475d880f1466dd558fb/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/markdillman/.android/build-cache/27761033dead8aa49b520324f2709c88b659bb36/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/markdillman/.android/build-cache/ad9b2f77e607002d7e16988d48f24bb159673468/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/.android/build-cache/0a6a87156d34d290b82095a6ecc0f5a208ed24fd/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/markdillman/.android/build-cache/90a5480947629dc1c9d2707ec8143a802fd5ece0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/markdillman/.android/build-cache/c72bc80e06a854abc0fd7a5a1bb94510cfce44d8/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/markdillman/.android/build-cache/f89db0fa27517685e71241f1e6e976cfde7e6634/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/markdillman/.android/build-cache/2538317ef882318482b384b9e1af2c9db5b2a3fe/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/markdillman/.android/build-cache/0f69c1eb0d7980f55e423a7d441bca558f1f52f9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/markdillman/.android/build-cache/5d302c96bf75a5948bcf2d7e8c5d42fc00c2d9e4/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/markdillman/.android/build-cache/1e461268f0d2b6950de6aea5f6e8b5095e9c921d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/markdillman/.android/build-cache/242970455f0a48c08fcb57ba6debea991770073b/output/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:9:9-41
 	android:supportsRtl
@@ -116,69 +116,70 @@ ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifes
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:19:19-48
 uses-sdk
 INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.8.0/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:22:5-42
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/AndroidManifest.xml:20:5-42
-MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/.android/build-cache/678c8ea1f34ab5e863b670fa7e3e6dfcc0c8d8ee/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/markdillman/.android/build-cache/9b54b15839508aa5b6180bfac23607168db9270e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/markdillman/.android/build-cache/c567a670aba71240a8966c6812d7a388df439d73/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/markdillman/.android/build-cache/2ffb5ec4fa7613d3aafcc81ea4a9a7e83d5b15b6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/markdillman/.android/build-cache/fb1485ddccbadf9e07975deaeed5084eda3e4c00/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/markdillman/.android/build-cache/25c4d81d24451e65430cd519caad1f5d8919b4e4/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/markdillman/.android/build-cache/072c3ba8da9589237c30f540a6e0dc5770940840/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/markdillman/.android/build-cache/aaa2f87924009fae9655b59d5ff494bfbdc9ecf8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/markdillman/.android/build-cache/a2e4c49291d2435b17b85ed4f50712ad63fc6637/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/markdillman/.android/build-cache/9532c5d8cd23a80b608f2cd4a322ef63b806bd8a/output/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/markdillman/.android/build-cache/ec5263300fdd1c63960d6193a477a4fc58f838ae/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/markdillman/.android/build-cache/1b9ed683b84d6ca5a56c1635e4a5a5a8553acf0b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/markdillman/.android/build-cache/94a0c86b2fb644bdc2f0f33218a16174db2c8785/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/markdillman/.android/build-cache/dec86d0c06a5c625af0d500842035c3c49792ae6/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/markdillman/.android/build-cache/e57030af76ddc7b18e0d1f2a7d65612b1f56eb64/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/markdillman/.android/build-cache/39e6ac1362a356dbbad3cd47c5283953fb04dc22/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/markdillman/.android/build-cache/ce8a7e9c19210a975ca2770ff6e0994d530900d9/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/markdillman/.android/build-cache/bd011d7e3869e83d316585aede4019311a7633c5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/markdillman/.android/build-cache/1d5ace45d06e82221f00c2c07109fc214f8402c3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/markdillman/.android/build-cache/d18732c3d1a88a7f3af6203d076d11e195dc75a6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/markdillman/.android/build-cache/1d4f82a286fd7ec442e5acfdb8694e988aa2380c/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/.android/build-cache/202cfb71a4354b7dbc2180eb12f6e66adb16229b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/markdillman/.android/build-cache/db1cd09f668ca74a6c1dd711f2410291e6cdacde/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/.android/build-cache/695bed9fe60933dded1ec45987c4047c0ca635e4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/markdillman/.android/build-cache/bdb20fa3ab3c009f11f650fb790643eab9bb5ef9/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/markdillman/.android/build-cache/e65d318d4be67aa2b3417605a239ec146f19053c/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/.android/build-cache/0f0b39d8676ec48b260cd64ecbd0bc09ae736658/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/markdillman/.android/build-cache/2f93535e245133ae55869bc993d576253bdfbb57/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/markdillman/.android/build-cache/21cd03d044adfd70d9369ceaeb7620417dbff46b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/markdillman/.android/build-cache/7e26a28e9d30af8052b79e07cc6d5b112ce47892/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/markdillman/.android/build-cache/467271e813a4ac17c49d6cb5b00fe4a38ee52e21/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/ed4e99f0c22cd1fac44c897df3f72dba3d5abe04/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/markdillman/.android/build-cache/b5feec9d93b7d86e1b1bf674ae9823aaa4bb98c0/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/markdillman/.android/build-cache/1c5ac644578780ecdd0ac8ac75642c9c8b547797/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/markdillman/.android/build-cache/167ca255b7756d536a655475d880f1466dd558fb/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/markdillman/.android/build-cache/27761033dead8aa49b520324f2709c88b659bb36/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/markdillman/.android/build-cache/ad9b2f77e607002d7e16988d48f24bb159673468/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/.android/build-cache/0a6a87156d34d290b82095a6ecc0f5a208ed24fd/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] /Users/markdillman/.android/build-cache/90a5480947629dc1c9d2707ec8143a802fd5ece0/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/markdillman/.android/build-cache/c72bc80e06a854abc0fd7a5a1bb94510cfce44d8/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/markdillman/.android/build-cache/f89db0fa27517685e71241f1e6e976cfde7e6634/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/markdillman/.android/build-cache/2538317ef882318482b384b9e1af2c9db5b2a3fe/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/markdillman/.android/build-cache/0f69c1eb0d7980f55e423a7d441bca558f1f52f9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/markdillman/.android/build-cache/5d302c96bf75a5948bcf2d7e8c5d42fc00c2d9e4/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/markdillman/.android/build-cache/51942200544a26cf25e85b306f2c2ead2fcc47a1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/markdillman/.android/build-cache/1e461268f0d2b6950de6aea5f6e8b5095e9c921d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /Users/markdillman/.android/build-cache/242970455f0a48c08fcb57ba6debea991770073b/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.1] /Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml
@@ -186,246 +187,254 @@ MERGED from [com.android.support:support-compat:25.1.1] /Users/markdillman/Deskt
 		INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/markdillman/.android/build-cache/0f0b39d8676ec48b260cd64ecbd0bc09ae736658/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/ed4e99f0c22cd1fac44c897df3f72dba3d5abe04/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:20:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:25:9-232
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:25:72-181
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:25:182-230
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:25:19-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:25:19-71
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:26:9-131
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:26:9-131
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:26:92-129
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:26:92-129
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:26:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:26:19-91
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:21:5-67
+ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/ed4e99f0c22cd1fac44c897df3f72dba3d5abe04/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/AndroidManifest.xml:24:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:24:22-65
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:20:9-25:20
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:20:51-74
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:20:75-121
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:20:19-50
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:21:13-24:29
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:22:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:22:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:22:25-87
 category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:23:17-75
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:23:17-75
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/AndroidManifest.xml:23:27-73
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/markdillman/.android/build-cache/58bc96745cd606c6b886204f53f80065792aa019/output/AndroidManifest.xml:23:27-73
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:20:9-189
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:20:129-162
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:20:163-187
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:20:69-128
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:20:19-68
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:24:9-184
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:24:64-87
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:24:88-182
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/AndroidManifest.xml:24:18-63
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/markdillman/.android/build-cache/86daaf5b5f17be190fe9de9659133c49acbf6821/output/AndroidManifest.xml:24:18-63
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:5:9-99
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:5:19-97
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:5:19-97
 service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:6:9-103
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:6:9-103
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:6:18-101
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:6:18-101
 service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:7:9-92
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:7:9-92
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/AndroidManifest.xml:7:18-90
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/markdillman/.android/build-cache/4d7748a9db21e86320f03b4e5ca504719a1ca31f/output/AndroidManifest.xml:7:18-90
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/markdillman/.android/build-cache/f14d1285d6d25e7a601af6e1ae16d22a40b8fdc9/output/AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:22:5-81
+ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/.android/build-cache/202cfb71a4354b7dbc2180eb12f6e66adb16229b/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/markdillman/.android/build-cache/695bed9fe60933dded1ec45987c4047c0ca635e4/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/AndroidManifest.xml:20:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/markdillman/.android/build-cache/202cfb71a4354b7dbc2180eb12f6e66adb16229b/output/AndroidManifest.xml:20:22-79
 service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:24:9-134
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:24:9-134
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:24:110-132
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:24:85-109
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:24:18-84
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:24:18-84
 activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:25:9-32:20
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:25:9-32:20
 	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:25:94-118
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:25:94-118
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:25:19-93
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:25:19-93
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:26:13-31:29
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:26:13-31:29
 data
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:27:17-71
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:27:17-71
 	android:scheme
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:27:23-69
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:27:23-69
 action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:28:17-68
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:28:25-66
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:28:25-66
 category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:30:17-77
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/AndroidManifest.xml:30:27-75
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/markdillman/.android/build-cache/18cf5584415d440b054a5f8afd6cf6f619ff2105/output/AndroidManifest.xml:30:27-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/markdillman/.android/build-cache/4ea07dc75656d962292670dadcbe77b1104bce20/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/markdillman/.android/build-cache/d956de4455296c5f65bea6f52cb5f0d23562b7e4/output/AndroidManifest.xml:32:16-87
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/markdillman/.android/build-cache/10ac9d5971df5611a5104c4f7dd0582dfce862fa/output/AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:6:9-175
+ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:6:9-175
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:6:125-149
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:6:125-149
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:6:150-173
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:6:150-173
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:6:79-124
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/markdillman/.android/build-cache/1f6b732a075bfefb420295785f1aef87fec05d5e/output/AndroidManifest.xml:6:79-124
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman/.android/build-cache/a3b7521a7a003c939296b94605f49615971b2155/output/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/markdillman/.android/build-cache/8cc7424978aa967bfab15e16872b25b8a4348f9d/output/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/.android/build-cache/0a6a87156d34d290b82095a6ecc0f5a208ed24fd/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/.android/build-cache/0a6a87156d34d290b82095a6ecc0f5a208ed24fd/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/markdillman/.android/build-cache/0a6a87156d34d290b82095a6ecc0f5a208ed24fd/output/AndroidManifest.xml:20:20-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.0] /Users/markdillman/.android/build-cache/51942200544a26cf25e85b306f2c2ead2fcc47a1/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/markdillman/.android/build-cache/1e461268f0d2b6950de6aea5f6e8b5095e9c921d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/markdillman/.android/build-cache/242970455f0a48c08fcb57ba6debea991770073b/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.0] /Users/markdillman/.android/build-cache/51942200544a26cf25e85b306f2c2ead2fcc47a1/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.0] /Users/markdillman/.android/build-cache/51942200544a26cf25e85b306f2c2ead2fcc47a1/output/AndroidManifest.xml:23:9-47

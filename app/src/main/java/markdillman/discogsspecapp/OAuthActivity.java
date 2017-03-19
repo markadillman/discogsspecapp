@@ -1,6 +1,7 @@
 package markdillman.discogsspecapp;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -66,7 +67,7 @@ public class OAuthActivity extends AppCompatActivity implements AsyncResponse{
     private SQLiteDatabase mSQLDB;
     static final String TAG = "OAuthActivity:";
     private HashMap<String,String> personaMap;
-    private HashMap<String,Object> profileMap;
+    private HashMap<String,String> profileMap;
     String responseBody;
 
     @Override
@@ -193,23 +194,24 @@ public class OAuthActivity extends AppCompatActivity implements AsyncResponse{
     }
 
     private void pullInfo(final String body, final OAuth1AccessToken accessToken){
+        //construct url
+        //DEBUG STUFF
+        Log.d(TAG,"PROFILE REQUEST RESPONSE");
+        Log.d(TAG,body);
+        System.out.println(body);
+        ObjectMapper mapper = new ObjectMapper();
+        TypeReference<HashMap<String,String>> typeRef =
+                new TypeReference<HashMap<String,String>>(){};
+        try {
+            personaMap = mapper.readValue(body,typeRef);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Log.d(TAG,personaMap.get("resource_url"));
         (new AsyncTask<Void,Void,Response>(){
             @Override
             protected Response doInBackground(Void...params){
-                //construct url
-                //DEBUG STUFF
-                Log.d(TAG,"PROFILE REQUEST RESPONSE");
-                Log.d(TAG,body);
-                System.out.println(body);
-                ObjectMapper mapper = new ObjectMapper();
-                TypeReference<HashMap<String,String>> typeRef =
-                        new TypeReference<HashMap<String,String>>(){};
-                try {
-                    personaMap = mapper.readValue(body,typeRef);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                Log.d(TAG,personaMap.get("resource_url"));
+
                 final OAuthRequest profileRequest = new OAuthRequest(Verb.GET,personaMap.get("resource_url"),mService);
                 profileRequest.addOAuthParameter("oauth_token_secret",accessToken.getParameter("oauth_token_secret"));
                 profileRequest.addHeader("User-Agent","Discogeronomy/1.0");
@@ -220,29 +222,34 @@ public class OAuthActivity extends AppCompatActivity implements AsyncResponse{
             @Override
             protected void onPostExecute(Response response){
                 try {
-                    String responseBody = response.getBody();
+                    responseBody = response.getBody();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 ObjectMapper mapper = new ObjectMapper();
-                TypeReference<HashMap<String,Object>> typeRef =
-                        new TypeReference<HashMap<String,Object>>(){};
+                TypeReference<HashMap<String,String>> typeRef =
+                        new TypeReference<HashMap<String,String>>(){};
                 try {
-                    profileMap = mapper.readValue(body,typeRef);
+                    profileMap = mapper.readValue(responseBody,typeRef);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 Log.d(TAG,responseBody);
-                //Log.d(TAG,(String)profileMap.get("name"));
-                /*if (mSQLDB != null){
+                Log.d(TAG,profileMap.get("email"));
+                if (mSQLDB != null){
                     ContentValues vals = new ContentValues();
-                    vals.put(DBContract.UserTable.COLUMN_NAME_USER_NAME, personaMap.get("username"));
-                    vals.put(DBContract.UserTable.COLUMN_NAME_ID,personaMap.get("id"));
-                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN,mAccessToken.getToken());
-                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET,mAccessToken.getTokenSecret());
-                    vals.put(DBContract.UserTable.COLUMN_NAME_URL,personaMap.get("resource_url"));
-                    //mSQLDB.insert(DBContract.UserTable.TABLE_NAME,null,vals);
-                }*/
+                    vals.put(DBContract.UserTable.COLUMN_NAME_USER_NAME, profileMap.get("username"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_PROPER_NAME, profileMap.get("name"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_ID,profileMap.get("id"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN,accessToken.getToken());
+                    vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET,accessToken.getTokenSecret());
+                    vals.put(DBContract.UserTable.COLUMN_NAME_URL,profileMap.get("resource_url"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_LOGGED_IN,"1");
+                    vals.put(DBContract.UserTable.COLUMN_NAME_WISHLIST_URL,profileMap.get("wantlist_url"));
+                    mSQLDB.insert(DBContract.UserTable.TABLE_NAME,null,vals);
+                    Intent intent = new Intent(OAuthActivity.this,MainActivity.class);
+                    startActivity(intent);
+                }
             }
         }).execute();
     }

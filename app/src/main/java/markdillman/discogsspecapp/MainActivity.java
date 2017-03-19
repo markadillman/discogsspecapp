@@ -14,24 +14,9 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.LinearLayout;
 import android.widget.EditText;
+import java.lang.StringBuilder;
 
-import com.github.scribejava.core.builder.api.DefaultApi10a;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.api.GoogleApiClient;
-
-import com.github.scribejava.core.builder.ServiceBuilder;
-import com.github.scribejava.core.model.OAuth1AccessToken;
-import com.github.scribejava.core.model.OAuth1RequestToken;
-import com.github.scribejava.core.model.Token;
-import com.github.scribejava.core.model.OAuthRequest;
-import com.github.scribejava.core.model.Response;
-import com.github.scribejava.core.model.Verb;
-import com.github.scribejava.core.oauth.OAuth10aService;
-import com.github.scribejava.core.exceptions.OAuthException;
-import com.github.scribejava.core.extractors.OAuth1AccessTokenExtractor;
-import com.github.scribejava.core.extractors.OAuth1RequestTokenExtractor;
-import com.github.scribejava.core.model.OAuthConfig;
 
 
 import android.content.ContentValues;
@@ -48,16 +33,6 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.os.Bundle;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.util.Properties;
-import java.util.concurrent.ExecutionException;
-import android.os.AsyncTask;
-
 public class MainActivity extends AppCompatActivity{
 
     private GoogleApiClient mGoogleApiClient;
@@ -71,9 +46,7 @@ public class MainActivity extends AppCompatActivity{
     private String consumerSecret = "LBAAQZeGbWJVbXcJksnRzmUIfaoWpsnu"; //api secret
     private String userAgent = "Crate-a-logue 1.0";
     private String requestUrl = "https://www.discogs.com/oauth/authorize";
-    private OAuth10aService mService;
-    private OAuth1RequestToken mToken;
-    private String authUrl;
+    private ListView mSQLList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +59,31 @@ public class MainActivity extends AppCompatActivity{
         mUsersDB = new UsersDB(this);
         mSQLDB = mUsersDB.getWritableDatabase();
 
+        if(mSQLDB!=null) try {
+            if (mSQLCursorAdapter != null && mSQLCursorAdapter.getCursor() != null) {
+                if (!mSQLCursorAdapter.getCursor().isClosed()) {
+                    mSQLCursorAdapter.getCursor().close();
+                }
+            }
+            String[] columns = {DBContract.UserTable.COLUMN_NAME_USER_NAME,
+                    DBContract.UserTable.COLUMN_NAME_PROPER_NAME,DBContract.UserTable._ID};
+            Log.d(TAG,"Prequery.");
+            mSQLCursor = mSQLDB.query(true,DBContract.UserTable.TABLE_NAME,columns,null,null,null,null,null,null);
+            if (!(mSQLCursor.moveToFirst()) || mSQLCursor.getCount() ==0){
+                Log.d(TAG,"Cursor is empty.");
+            }
+            //mSQLCursor = mSQLDB.rawQuery("select * from users",null);
+            Log.d(TAG,"Postquery.");
+            mSQLList = (ListView) findViewById(R.id.accounts_list);
+            mSQLCursorAdapter = new SimpleCursorAdapter(this, R.layout.user_panel,
+                    mSQLCursor, new String[]{DBContract.UserTable.COLUMN_NAME_USER_NAME,
+                    DBContract.UserTable.COLUMN_NAME_PROPER_NAME},
+                    new int[]{R.id.username, R.id.name}, 0);
+            mSQLList.setAdapter(mSQLCursorAdapter);
+        } catch (Exception e) {
+            Log.d(TAG, "Error loading data from database.");
+        }
+
         //Button stuff
         mButton = (Button) findViewById(R.id.oauth_button);
         mButton.setOnClickListener(new View.OnClickListener() {
@@ -95,5 +93,6 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
     }
 }

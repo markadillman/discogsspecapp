@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+        "source": "/Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+        "source": "/Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "source": "/Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "source": "/Users/markdillman/.android/build-cache/5331ea07db854067b5d42797ec85f927a2affb51/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
     }
 ]

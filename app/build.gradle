@@ -50,3 +50,6 @@ android {
         testCompile 'junit:junit:4.12'
     }
 }
+dependencies {
+    compile 'com.android.support:recyclerview-v7:25.3.0'
+}
