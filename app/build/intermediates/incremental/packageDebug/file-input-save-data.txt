@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 19 22:54:19 EDT 2017
+#Mon Mar 20 00:21:39 EDT 2017
 20.base=/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/resources-debug.ap_
 493.base=/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/resources-debug.ap_

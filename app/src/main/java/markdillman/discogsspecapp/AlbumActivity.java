@@ -77,6 +77,7 @@ public class AlbumActivity extends AppCompatActivity {
     private final String TAG = "AlbumActivity";
     private String instanceUrl;
     private int folder_id;
+    private String return_url;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,6 +94,7 @@ public class AlbumActivity extends AppCompatActivity {
                     token = args.getString(key);
                 } else if (key.equals("url")) {
                     url = args.getString(key);
+                    return_url = url;
                 } else if (key.equals("username")){
                     username = args.getString(key);
                 } else if (key.equals("folder_id")){
@@ -100,6 +102,7 @@ public class AlbumActivity extends AppCompatActivity {
                 }
             }
         }
+        Log.d(TAG,"URL at start: " + url);
         //write username into TextView
         TextView userField = (TextView)findViewById(R.id.username_release);
         userField.setText(username);
@@ -130,6 +133,7 @@ public class AlbumActivity extends AppCompatActivity {
                 addArgs.putString("token",mAccessToken.getToken());
                 addArgs.putString("token_secret",mAccessToken.getTokenSecret());
                 addArgs.putInt("folder_id",folder_id);
+                addArgs.putString("return_url",return_url);
                 Intent intent = new Intent(AlbumActivity.this,AddActivity.class);
                 intent.putExtras(addArgs);
                 startActivity(intent);

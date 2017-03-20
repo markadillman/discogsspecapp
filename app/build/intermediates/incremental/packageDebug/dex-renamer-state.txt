@@ -1,4 +1,4 @@
-#Sun Mar 19 22:54:19 EDT 2017
+#Mon Mar 20 00:21:39 EDT 2017
 base.0=/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e2a54b77f528766a90184e301d1a06ab07f523d6
 renamed.1=classes2.dex
 renamed.0=classes.dex

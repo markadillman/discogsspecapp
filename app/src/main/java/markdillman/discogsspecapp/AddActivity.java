@@ -57,12 +57,18 @@ public class AddActivity extends AppCompatActivity {
     private WebChromeClient mWebChromeClient;
     private int folder_id;
     private String username;
-    private String url;
+    private String targurl;
     private final String WEBVIEW_URL = "https://www.discogs.com/search";
     private final String TAG = "AddActivity";
     private OAuth1AccessToken mAccessToken;
     private String token;
     private String token_secret;
+    private OAuth10aService mService;
+    private String userAgent = "Crate-a-logue 1.0";
+    private static final String CALLBACK_URL = "http://convectionmeadows.com";
+    private String consumerKey = "aYthzoqSYthdKLpfsDRI"; //api key
+    private String consumerSecret = "LBAAQZeGbWJVbXcJksnRzmUIfaoWpsnu"; //api secret
+    private String return_url;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         //setup stuff
@@ -73,16 +79,17 @@ public class AddActivity extends AppCompatActivity {
         if (args != null) {
             for (String key : args.keySet()) {
                 if (key.equals("url")) {
-                    url = args.getString(key);
+                    targurl = args.getString(key);
                 } else if (key.equals("username")) {
                     username = args.getString(key);
                 } else if (key.equals("folder_id")) {
                     folder_id = args.getInt(key);
                 } else if (key.equals("token")){
                     token = args.getString(key);
-                }
-                else if (key.equals("token_secret")){
+                } else if (key.equals("token_secret")){
                     token_secret=args.getString(key);
+                } else if (key.equals("return_url")){
+                    return_url=args.getString(key);
                 }
             }
         }
@@ -98,6 +105,20 @@ public class AddActivity extends AppCompatActivity {
         mWebView.setWebViewClient(mWebViewClient);
         mWebView.setWebChromeClient(mWebChromeClient);
         mWebView.loadUrl(WEBVIEW_URL);
+
+        //Oauth query stuff
+        System.setProperty("http.agent", userAgent);
+        mService = new ServiceBuilder()
+                .apiKey(consumerKey)
+                .apiSecret(consumerSecret)
+                .userAgent(userAgent)
+                .callback(CALLBACK_URL)
+                .signatureType(com.github.scribejava.core.model.SignatureType.QueryString)
+                .debug()
+                .build(DiscogsApi.instance());
+        //construct token
+        mAccessToken = new OAuth1AccessToken(token, token_secret);
+        Log.d(TAG, mAccessToken.toString());
     }
 
     private WebViewClient mWebViewClient = new WebViewClient(){
@@ -115,18 +136,63 @@ public class AddActivity extends AppCompatActivity {
                 int targIndex = extractor.indexOf("/release/");
                 Log.d(TAG,"Target index: " + Integer.toString(targIndex));
                 //index+8 is final slash
-                extractor.delete(0,targIndex+8);
+                extractor.delete(0,targIndex+9);
                 Log.d(TAG,"RELEASE: " + extractor.toString());
                 //remove anything following the next slash or ? if there is anything
                 targIndex = extractor.indexOf("/");
                 if (targIndex != -1){
                     extractor.delete(targIndex,extractor.length()-1);
-                }
+                } else Log.d(TAG,"NO CLIP");
                 targIndex = extractor.indexOf("?");
                 if (targIndex != -1){
                     extractor.delete(targIndex,extractor.length()-1);
-                }
+                }else Log.d(TAG,"NO CLIP");
                 Log.d(TAG,"RELEASE: " + extractor.toString());
+                //start crafting async request
+                StringBuilder fullurl = new StringBuilder();
+                fullurl.append(targurl + "/");
+                fullurl.append(extractor.toString());
+                Log.d(TAG,"FULL URL: " + fullurl.toString());
+                OAuthRequest addreq = new OAuthRequest(Verb.POST,fullurl.toString(),mService);
+                addreq.addHeader("Content-Type","application/json");
+                //craft json body
+                StringBuilder body = new StringBuilder();
+                body.append("{\"username\":");
+                body.append(encloseQuotes(username)+",");
+                body.append("\"folder_id\":");
+                body.append(Integer.toString(folder_id)+",");
+                body.append("\"release_id\":");
+                body.append(extractor.toString()+"}");
+                Log.d(TAG,"JSON BODY:" + body.toString() );
+                addreq.addPayload(body.toString());
+                mService.signRequest(mAccessToken,addreq);
+                final OAuthRequest addRequest = addreq;
+                //place request
+                (new AsyncTask<Void,Void,Response>(){
+                    @Override
+                    protected Response doInBackground(Void... params) {
+                        Response response = addRequest.send();
+                        return response;
+                    }
+
+                    @Override
+                    protected void onPostExecute(Response response){
+                        try {
+                            Log.d(TAG,response.getBody());
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        Bundle returnArgs = new Bundle();
+                        returnArgs.putString("token",mAccessToken.getToken());
+                        returnArgs.putString("token_secret",mAccessToken.getTokenSecret());
+                        returnArgs.putString("url",return_url);
+                        returnArgs.putString("username",username);
+                        returnArgs.putInt("folder_id",folder_id);
+                        Intent intent = new Intent(AddActivity.this,AlbumActivity.class);
+                        intent.putExtras(returnArgs);
+                        startActivity(intent);
+                    }
+                } ).execute();
                 mWebView.stopLoading();
                 mWebView.setVisibility(View.INVISIBLE); // Hide webview if necessary
             } else {
@@ -135,4 +201,11 @@ public class AddActivity extends AppCompatActivity {
         }
     };
 
+    private String encloseQuotes(String orig){
+        StringBuilder encloser = new StringBuilder();
+        encloser.append("\"");
+        encloser.append(orig);
+        encloser.append("\"");
+        return encloser.toString();
+    }
 }

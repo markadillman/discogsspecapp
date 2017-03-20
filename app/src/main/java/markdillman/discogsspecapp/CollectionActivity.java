@@ -196,6 +196,7 @@ public class CollectionActivity extends AppCompatActivity {
                         folderUrl.append(collectionUrl+"/");
                         folderUrl.append(Integer.toString(fa.getFolders().get(iter).getId()));
                         folderUrl.append("/releases");
+                        Log.d(TAG,"FOLDER URL: " + folderUrl.toString());
                         albumArgs.putString("url",folderUrl.toString());
                         albumArgs.putString("username",username);
                         albumArgs.putInt("folder_id",fa.getFolders().get(iter).getId());

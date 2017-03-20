@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489978735740"
+    timestamp="1489983698015"
     token="2888618521875868446"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,9 +23,13 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1489968326874"
+        timestamp="1489978979124"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -66,21 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489978455939"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489978709425"
+        timestamp="1489982931018"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -88,7 +78,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489978735740"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1489983698015"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/markdillman/Desktop/DiscogsSpecApp/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>
