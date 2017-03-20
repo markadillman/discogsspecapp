@@ -32,8 +32,16 @@
         "source": "/Users/markdillman/.android/build-cache/21cd03d044adfd70d9369ceaeb7620417dbff46b/output/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/folder_panel.xml",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/folder_panel.xml"
+    },
+    {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/activity_release.xml",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/activity_release.xml"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
@@ -60,6 +68,10 @@
         "source": "/Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/activity_add.xml",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/activity_add.xml"
+    },
+    {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -74,6 +86,10 @@
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/activity_oauth.xml",
         "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/activity_oauth.xml"
+    },
+    {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/activity_collection.xml",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/activity_collection.xml"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
@@ -146,6 +162,10 @@
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/markdillman/.android/build-cache/8707625089ef5a1be604ef98707de77a6c56feeb/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/release_panel.xml",
+        "source": "/Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/res/layout/release_panel.xml"
     },
     {
         "merged": "/Users/markdillman/Desktop/DiscogsSpecApp/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",

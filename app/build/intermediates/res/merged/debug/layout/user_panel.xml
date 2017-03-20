@@ -6,7 +6,6 @@
     android:weightSum="1"
     android:background="@drawable/blackbox"
     android:backgroundTint="@color/colorAccent">
-
         <LinearLayout
         android:layout_width="92dp"
         android:layout_height="match_parent"

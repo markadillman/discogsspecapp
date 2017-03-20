@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml
@@ -34,7 +34,7 @@ MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/markdillman
 	android:name
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:6:5-20:19
+ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:6:5-23:19
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/.android/build-cache/678c8ea1f34ab5e863b670fa7e3e6dfcc0c8d8ee/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/markdillman/.android/build-cache/07197792dcca02e29b5714b2bc9be7a4908addad/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/markdillman/.android/build-cache/9513a86fa03a21d345cf1235de0d4f4bad8955c8/output/AndroidManifest.xml:26:5-19
@@ -114,6 +114,18 @@ activity#markdillman.discogsspecapp.OAuthActivity
 ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:19:9-50
 	android:name
 		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:19:19-48
+activity#markdillman.discogsspecapp.CollectionActivity
+ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:20:19-53
+activity#markdillman.discogsspecapp.AlbumActivity
+ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:21:9-50
+	android:name
+		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:21:19-48
+activity#markdillman.discogsspecapp.AddActivity
+ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:22:9-48
+	android:name
+		ADDED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml:22:19-46
 uses-sdk
 INJECTED from /Users/markdillman/Desktop/DiscogsSpecApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/markdillman/.android/build-cache/678c8ea1f34ab5e863b670fa7e3e6dfcc0c8d8ee/output/AndroidManifest.xml:4:5-42

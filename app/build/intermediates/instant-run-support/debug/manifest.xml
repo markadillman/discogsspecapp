@@ -42,6 +42,9 @@
             </intent-filter>
         </activity>
         <activity android:name="markdillman.discogsspecapp.OAuthActivity" />
+        <activity android:name="markdillman.discogsspecapp.CollectionActivity" />
+        <activity android:name="markdillman.discogsspecapp.AlbumActivity" />
+        <activity android:name="markdillman.discogsspecapp.AddActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

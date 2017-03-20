@@ -31,6 +31,8 @@ import android.widget.Button;
 import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity{
@@ -47,6 +49,35 @@ public class MainActivity extends AppCompatActivity{
     private String userAgent = "Crate-a-logue 1.0";
     private String requestUrl = "https://www.discogs.com/oauth/authorize";
     private ListView mSQLList;
+
+    //clickable account lists
+    private OnItemClickListener mAccountClickedHandler = new OnItemClickListener(){
+        @Override
+        public void onItemClick(AdapterView parent, View v, int position,long id){
+            Log.d(TAG,"Me me clickable man");
+            Bundle userArgs = new Bundle();
+            //i will track the cursor position of relevant data
+            mSQLCursor.moveToPosition(position);
+            userArgs.putString("username",mSQLCursor.getString(0));
+            userArgs.putString("name",mSQLCursor.getString(1));
+            userArgs.putString("token",mSQLCursor.getString(2));
+            userArgs.putString("token_secret",mSQLCursor.getString(3));
+            userArgs.putString("collection_url",mSQLCursor.getString(4));
+            userArgs.putInt("id",mSQLCursor.getInt(5));
+            userArgs.putInt("local_id",mSQLCursor.getInt(6));
+            //DEBUG LOOP
+            for (String key: userArgs.keySet())
+            {
+                if (key.equals("id")||key.equals("local_id")) {
+                    Log.d(TAG, key + " : " + Integer.toString(userArgs.getInt(key)));
+                }
+                else Log.d(TAG, key + " : " + userArgs.getString(key));
+            }
+            Intent intent = new Intent(MainActivity.this,CollectionActivity.class);
+            intent.putExtras(userArgs);
+            startActivity(intent);
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +97,12 @@ public class MainActivity extends AppCompatActivity{
                 }
             }
             String[] columns = {DBContract.UserTable.COLUMN_NAME_USER_NAME,
-                    DBContract.UserTable.COLUMN_NAME_PROPER_NAME,DBContract.UserTable._ID};
+                    DBContract.UserTable.COLUMN_NAME_PROPER_NAME,
+                    DBContract.UserTable.COLUMN_NAME_TOKEN,
+                    DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET,
+                    DBContract.UserTable.COLUMN_NAME_COLLECTION_URL,
+                    DBContract.UserTable.COLUMN_NAME_ID,
+                    DBContract.UserTable._ID};
             Log.d(TAG,"Prequery.");
             mSQLCursor = mSQLDB.query(true,DBContract.UserTable.TABLE_NAME,columns,null,null,null,null,null,null);
             if (!(mSQLCursor.moveToFirst()) || mSQLCursor.getCount() ==0){
@@ -83,7 +119,6 @@ public class MainActivity extends AppCompatActivity{
         } catch (Exception e) {
             Log.d(TAG, "Error loading data from database.");
         }
-
         //Button stuff
         mButton = (Button) findViewById(R.id.oauth_button);
         mButton.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +128,7 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
-
-    }
+        //Iterate through children in list and pass correct fields through to the collection activity
+        mSQLList.setOnItemClickListener(mAccountClickedHandler);
+        }
 }

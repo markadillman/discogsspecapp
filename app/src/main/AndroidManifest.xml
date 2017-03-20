@@ -17,5 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".OAuthActivity"/>
+        <activity android:name=".CollectionActivity"/>
+        <activity android:name=".AlbumActivity"/>
+        <activity android:name=".AddActivity"/>
     </application>
 </manifest>

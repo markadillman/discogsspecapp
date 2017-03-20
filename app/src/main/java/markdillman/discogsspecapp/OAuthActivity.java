@@ -245,7 +245,7 @@ public class OAuthActivity extends AppCompatActivity implements AsyncResponse{
                     vals.put(DBContract.UserTable.COLUMN_NAME_TOKEN_SECRET,accessToken.getTokenSecret());
                     vals.put(DBContract.UserTable.COLUMN_NAME_URL,profileMap.get("resource_url"));
                     vals.put(DBContract.UserTable.COLUMN_NAME_LOGGED_IN,"1");
-                    vals.put(DBContract.UserTable.COLUMN_NAME_WISHLIST_URL,profileMap.get("wantlist_url"));
+                    vals.put(DBContract.UserTable.COLUMN_NAME_COLLECTION_URL,profileMap.get("collection_folders_url"));
                     mSQLDB.insert(DBContract.UserTable.TABLE_NAME,null,vals);
                     Intent intent = new Intent(OAuthActivity.this,MainActivity.class);
                     startActivity(intent);
